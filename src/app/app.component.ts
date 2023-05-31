@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mi-app10';
+  onSubmit() {
+    console.log('El formulario fue enviado');
+  }
+
 }

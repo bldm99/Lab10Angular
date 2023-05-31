@@ -1,0 +1,35 @@
+
+
+.comp{
+    background: rgba(254, 255, 254, 0.9) ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   
+    
+}
+
+.comp .confirmar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+   
+    
+}
+.confirmar button{
+    background: rgb(126, 207, 4);
+    width: 40%;
+    border-radius: 9px;
+    border: none;
+    margin: 2px 0px;
+    padding: 8px 5px;
+    color: azure;
+}

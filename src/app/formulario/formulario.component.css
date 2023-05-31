@@ -1,0 +1,24 @@
+.formulario{
+    background: rgba(0, 3, 0, 0.3) ;
+    padding: 3rem;
+    position: relative;
+    
+}
+
+.formulario form{
+    width: 100%;  
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+
+form input{
+    margin: 10px 0px;
+    padding: 10px 4px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    
+}

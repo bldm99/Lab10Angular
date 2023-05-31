@@ -1,0 +1,39 @@
+<section class="formulario">
+  <form (submit)="onSubmit()">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" [(ngModel)]="nombre" name="nombre" (input)="validarCampos()" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" [(ngModel)]="email" name="email" (input)="validarCampos()" required>
+    
+    <button type="submit" [disabled]="formIsEmpty" (click)="onButtonClick()">Enviar</button>
+  </form>
+
+
+  <div *ngIf="mostrar">
+    <app-superpuesto [miFuncion]="aceptar" [datos]="valoresFormulario" ></app-superpuesto>
+  </div>
+
+
+</section>
+
+
+
+
+<!--
+<div class="tareas">
+  <div class="caja" *ngFor="let x of datosx">
+    <div class="nombre">
+
+      <app-prueba [objeto]="x"></app-prueba>
+      
+    </div>
+  </div>
+</div>
+
+<app-prueba [objeto]="datosx" [val]="'componete uno'">efdfdf</app-prueba>
+<app-prueba [objeto]="datosx" [val]="'componete dos'">dfd</app-prueba>
+<app-prueba [objeto]="datosx" [val]="'componete tres'">df</app-prueba>
+<app-prueba [objeto]="datosx" [val]="'componete cuatro'">df</app-prueba>
+<app-prueba [objeto]="datosx" [val]="'Componente Uno'"></app-prueba>
+-->
